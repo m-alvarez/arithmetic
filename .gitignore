@@ -14,3 +14,8 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+Test
+klee-output
+tdir
+*.bc
+*.swp
