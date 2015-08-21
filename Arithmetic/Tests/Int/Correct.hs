@@ -10,7 +10,7 @@ addition_inverse :: Int -> Bool
 addition_inverse i = i + (-i) == 0
 
 addition_neutral :: Int -> Bool
-addition_neutral i = i + 0 == 0
+addition_neutral i = i + 0 == i
 
 multiplication_commutative :: Int -> Int -> Bool
 multiplication_commutative i j = i * j == j * i
@@ -23,6 +23,3 @@ multiplication_neutral i = i * 0 == 0
 
 multiplication_distributive :: Int -> Int -> Int -> Bool
 multiplication_distributive i j k = (i + j) * k == i * k + j * k
-
-square_positive :: Int -> Bool
-square_positive i = i * i > 0
